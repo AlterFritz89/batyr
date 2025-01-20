@@ -1,0 +1,81 @@
+# {
+    margin: 0;
+    padding: 0;
+    }
+
+#header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #ffff44;
+    color: #000000;
+    line-height: 70px;
+    float: left;
+}
+#footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-top: 4px solid silver;
+    background: #000;
+    color: #aaa;
+    line-height: 50px;
+    float: left;
+}
+#right {
+    width: 16%;
+    height: 900px;
+    text-align: left;
+    background: #bbbbff;
+    color: #000000;
+    float: left;
+    padding: 10px 2%;
+
+    }
+.maindex {
+    width: 80%;
+    height: 900px;
+    text-align: left;
+    background: #e5e5e5;
+    color: #000000;
+    float: left;
+    z-index: 1;
+}
+.icon {
+    position: absolute;
+    float: left;
+    top: 14px;
+    left: 15px;
+}
+a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 5px 10px;
+   letter-spacing: 1px;
+   margin: 0 20px;
+   font-size: 15px;
+   font-family: 'Fredoka One', cursive;
+   transition: .3s ease-in-out;
+}
+.s1 {
+   color: #FFD201;
+   letter-spacing: 1px;
+   border-bottom: 1px solid transparent;
+
+}
+.s1:hover {
+   border-bottom: 1px solid #FFD201;
+  
+}
+button {
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  cursor: pointer;;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Fredoka One', cursive;
+}
